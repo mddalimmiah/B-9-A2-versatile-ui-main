@@ -69,7 +69,7 @@
         
     
     }
-    .section-title{
+    .section-title, .run-title{
         
         font-size: 2rem;
        
@@ -93,4 +93,29 @@
         padding: 10px;
       
     }
+
+    /* run and easily */
+    .run-easily-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+       
+        
+    }
+    .run-content-container{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .run-content-container > :nth-child(3){
+        width: 80%;
+    }
+    
+    .run-img-container{
+        width: 100%;
+        padding:20px;
+    
+}
+
 }
