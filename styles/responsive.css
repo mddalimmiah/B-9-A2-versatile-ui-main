@@ -1,0 +1,72 @@
+
+/* mobile device responsive */
+
+@media screen and (max-width:576px) {
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        
+       }
+    .nav-links{
+       display: none;
+       }
+       .ham-barger{
+        display: block;
+       }
+
+       .banner-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner-text-content{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-title{
+       
+        font-size: 2rem;
+    }
+    .span-title{
+        font-size: 2rem;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-primary{
+        padding: 10px;   
+        width: 150px;
+        height: 54px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .btn-download{
+        /* box-sizing: border-box; */
+        padding: 8px;   
+        width: 150px;
+        height: 54px;
+        font-size: 1rem;
+        font-weight: 400;
+        
+    }
+    .box{
+       
+        width: 180px;
+        height: 90px;
+        bottom: 250px;
+    
+    }
+    .box-2{
+        
+        width: 170px;
+        height: 80px;
+        top: 30px;
+        right: 5px;
+        
+    
+    }
+}
