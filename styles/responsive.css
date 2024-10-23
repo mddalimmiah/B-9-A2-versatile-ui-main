@@ -117,5 +117,47 @@
         padding:20px;
     
 }
-
+.training-exercises{
+    margin: 50px auto;
+}
+.training-img-container{
+  
+    grid-template-columns: repeat(12, 1fr);
+ 
+}
+.training-description, .training-title{
+    padding: 20px;
+    max-width: 100%;
+}
+.row-1{
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+    position: relative;
+    background: rgba(6, 255, 210, 0.5);
+}
+.row-2{
+    grid-column: 7/ span 6;
+    grid-row: 1/ span 6;
+    position: relative;
+}
+.row-3{
+    grid-column: 1 / span 6;
+    grid-row: 1/ span 6;
+    position: relative;
+}
+.row-4{
+    grid-column: 7/ span 6;
+    grid-row: 7/ span 6;
+    position: relative;
+}
+.row-5{
+    grid-column: 1/ span 6;
+    grid-row: 7/ span 6;
+    position: relative;
+}
+.row-6{
+    grid-column: 7/ span 6;
+    grid-row: 7/ span 6;
+    position: relative;
+}
 }
