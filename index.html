@@ -187,25 +187,22 @@ Mile Easily start  -->
                 <h3 class="calculate-title">Calculate your BMI</h3>
                 <p class="calculate-description">calculate your BMI, divide your weight in kilograms by the square of your height in meters (BMI = weight / height²)</p>
                 <div>
-                    <form action=""> 
+                    <form action="" class=""> 
                     <input type="text" name="" id="" placeholder="Height/cm">
                     <input type="text" name="" id="" placeholder="Weight/kg"> <br>
                     <input type="text" name="" id="" placeholder="Age">
-                    <label for="sex">Select your sex:
-                            <select id="sex" name="sex"> 
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            </select> 
-                    </label>  <br>
-                    <label for="sex">Select an activity factor
-                            <select id="sex" name="sex"> 
-                            <option value="male"></option>
-                            
-                           
-                    </label>  
-               
-                    </form>
+                                
+                    <select id="sex" name="sex"> 
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                              
+                    <select class="select-2" pl id="sex" name="sex" placeholder="Select an activity factor"> 
+                        <option value="Select an activity factor">Select an activity factor</option>
+                    </select>
                     <button class="btn-primary">Calculate</button>
+                    </form>
+                    
                 </div>
             </div>
         </div>

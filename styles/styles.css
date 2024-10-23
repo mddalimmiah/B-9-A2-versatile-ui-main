@@ -443,6 +443,7 @@ main{
     text-align: center;
     
 }
+
 .bmi-content{
     display: flex;
     flex-direction: column;
@@ -452,7 +453,7 @@ main{
     text-align: left;
 }
 .bmi-description{
-    width: 22%;
+    width: 25%;
     text-align: left;
 }
 .bmi-container{
@@ -462,9 +463,11 @@ main{
     background-color: #222222;
     gap: 150px;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
-
+    .calculator-chart{
+        width: 45%;
+    }
 table{
     border-collapse: collapse;
     padding: 15px 18px;
@@ -490,23 +493,44 @@ table td{
     text-align: left;
     margin-bottom: 50px;
 }
+.calculate-bmi{
+    width: 45%;
+}
 .calculate-title{
     font-size: 1.8rem;
     font-weight: 900;
     text-align: left;
     color: white;
-    width: 500px;
+    /* width: 500px; */
+    margin-bottom: 14px;
 }
 .calculate-description{
     font-size: .9rem;
     font-weight: 400;
     text-align: left;
 }
- form input, select, label{
+ form input, select{
     padding: 12px 40px 12px 20px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     /* background-color: black; */
-    width: 282px;
+    width: 47%;
     height: 48px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .select-2{
+    width: 96%;
+ }
+ form{
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+ }
+ form button{
+    margin-left: 20px;
+  
  }

@@ -140,7 +140,17 @@
     grid-row: 1/ span 6;
     position: relative;
 }
-
+.row-3{
+    grid-column: 1/ span 6;
+    grid-row: 1/ span 6;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+.row-4{
+    grid-column: 7/ span 6;
+    grid-row: 7/ span 6;
+    position: relative;
+}   
 .row-5{
     grid-column: 1/ span 6;
     grid-row: 7/ span 6;
@@ -151,4 +161,26 @@
     grid-row: 7/ span 6;
     position: relative;
 }
+
+.bmi-description{
+    width: 100%;
+    text-align: center;
+}
+.bmi-container{
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+}
+.calculator-chart, .calculate-bmi{
+    width: 90%;
+}
+form input, select{
+    padding: 12px;
+    width: 46%;
+    height: 100%;
+
+ }
+ .select-2{
+    width: 96%;
+ }
 }
