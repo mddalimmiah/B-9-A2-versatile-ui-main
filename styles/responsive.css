@@ -140,16 +140,7 @@
     grid-row: 1/ span 6;
     position: relative;
 }
-.row-3{
-    grid-column: 1 / span 6;
-    grid-row: 1/ span 6;
-    position: relative;
-}
-.row-4{
-    grid-column: 7/ span 6;
-    grid-row: 7/ span 6;
-    position: relative;
-}
+
 .row-5{
     grid-column: 1/ span 6;
     grid-row: 7/ span 6;
