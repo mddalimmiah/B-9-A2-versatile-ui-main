@@ -237,7 +237,14 @@ form input, select{
     bottom: 100px;
     left: 50px;
 }
-
+.need-card-container{
+   
+   
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+   
+    }
 /* footer section */
 
 .footer-section{
